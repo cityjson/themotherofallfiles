@@ -41,7 +41,7 @@
     - [ ] "MultiPoint"
     - [ ] "MultiLineString"
     - [x] "MultiSurface"
-    - [ ] "CompositeSurface"
+    - [x] "CompositeSurface"
     - [x] "Solid"
     - [ ] "MultiSolid"
     - [x] "CompositeSolid"

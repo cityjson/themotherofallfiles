@@ -132,7 +132,6 @@
 			"geometry": [
 				{
 					"boundaries": [
-						[
 							[
 								[
 									16,
@@ -845,7 +844,6 @@
 									147
 								]
 							]
-						]
 					],
 					"lod": "2.2",
 					"semantics": {
@@ -866,7 +864,6 @@
 							}
 						],
 						"values": [
-							[
 								0,
 								2,
 								2,
@@ -941,10 +938,9 @@
 								1,
 								1,
 								1
-							]
 						]
 					},
-					"type": "Solid"
+					"type": "CompositeSurface"
 				}
 			],
 			"parents": [
