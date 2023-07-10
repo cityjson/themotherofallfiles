@@ -4,6 +4,7 @@
   "CityObjects": {
     "a_group_of_trees": {
       "type": "CityObjectGroup",
+      "geometry": [],
       "children": [
         "tree1",
         "tree2",
