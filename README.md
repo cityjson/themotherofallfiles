@@ -26,6 +26,14 @@ The one file to rule them all.
     - [ ] GenericCityObject
     - [x] CityObjectGroup
 - [ ] all Geometric Objects
+    - [ ] "MultiPoint"
+    - [ ] "MultiLineString"
+    - [x] "MultiSurface"
+    - [ ] "CompositeSurface"
+    - [x] "Solid"
+    - [ ] "MultiSolid"
+    - [x] "CompositeSolid"
+    - [x] "GeometryInstance"
 - [ ] +Extension 1
 - [ ] +Extension 2
 - [ ] +Extension 3
