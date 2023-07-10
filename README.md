@@ -4,27 +4,39 @@ The one file to rule them all.
 
 
 - [ ] all City Object types
-    - [x] Building
-    - [x] BuildingPart
-    - [ ] BuildingInstallation
-    - [ ] Bridge
-    - [ ] BridgePart
+    - [ ] BridgeConstructiveElement
+    - [ ] BridgeFurniture
     - [ ] BridgeInstallation
-    - [ ] BridgeConstructionElement
-    - [ ] Tunnel
-    - [ ] TunnelPart
-    - [ ] TunnelInstallation
-    - [x] Road
-    - [ ] Railway
-    - [ ] TransportSquare
-    - [ ] TINRelief
-    - [x] WaterBody
-    - [x] LandUse
-    - [x] PlantCover
-    - [x] SolitaryVegetationObject
+    - [ ] BridgePart
+    - [ ] BridgeRoom
+    - [x] Building
+    - [ ] BuildingConstructiveElement
+    - [ ] BuildingFurniture
+    - [ ] BuildingInstallation
+    - [x] BuildingPart
+    - [ ] BuildingRoom
+    - [ ] BuildingStorey
+    - [ ] BuildingUnit
     - [ ] CityFurniture
-    - [ ] GenericCityObject
     - [x] CityObjectGroup
+    - [ ] ExtensionObject
+    - [ ] GenericCityObject
+    - [x] LandUse
+    - [x] OtherConstruction
+    - [x] PlantCover
+    - [ ] Railway
+    - [x] Road
+    - [x] SolitaryVegetationObject
+    - [ ] TINRelief
+    - [ ] TransportSquare
+    - [ ] Tunnel
+    - [ ] TunnelConstructiveElement
+    - [ ] TunnelFurniture
+    - [ ] TunnelHollowSpace
+    - [ ] TunnelInstallation
+    - [ ] TunnelPart
+    - [x] WaterBody
+    - [ ] Waterway
 - [ ] all Geometric Objects
     - [ ] "MultiPoint"
     - [ ] "MultiLineString"
@@ -40,6 +52,6 @@ The one file to rule them all.
 - [ ] +Extension 4
 - [x] metadata
 - [x] Semantic Surfaces
-- [ ] material
-- [ ] texture
+- [x] material
+- [x] texture
 - [x] Geometry Template
