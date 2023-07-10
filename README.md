@@ -14,5 +14,3 @@ The one file to rule them all.
 - [ ] material
 - [ ] texture
 - [x] Geometry Template
-- [ ] 
-- [ ]
