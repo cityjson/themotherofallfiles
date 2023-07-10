@@ -17,7 +17,7 @@ The one file to rule them all.
     - [ ] BuildingRoom
     - [ ] BuildingStorey
     - [ ] BuildingUnit
-    - [ ] CityFurniture
+    - [x] CityFurniture
     - [x] CityObjectGroup
     - [ ] ExtensionObject
     - [ ] GenericCityObject
