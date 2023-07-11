@@ -12,7 +12,7 @@
     - [x] Building
     - [ ] BuildingConstructiveElement
     - [ ] BuildingFurniture
-    - [ ] BuildingInstallation
+    - [x] BuildingInstallation
     - [x] BuildingPart
     - [ ] BuildingRoom
     - [ ] BuildingStorey
@@ -38,7 +38,7 @@
     - [x] WaterBody
     - [ ] Waterway
 - [ ] all Geometric Objects
-    - [ ] "MultiPoint"
+    - [x] "MultiPoint"
     - [ ] "MultiLineString"
     - [x] "MultiSurface"
     - [x] "CompositeSurface"
