@@ -1,0 +1,27 @@
+on: push
+name: Run cjval
+
+jobs:
+  cjval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: ls -la
+      - name: Install cjval from crates.io
+        uses: baptiste0928/cargo-install@v2.1.0
+        with:
+          crate: cjval
+          features: "build-binary"
+      - name: cjval version
+        run: cjval --version
+      - name: Run cjval
+        run: cjval tmoaf.city.json > report.txt || true
+      - name: Check validation report
+        run: |
+          cat report.txt
+          if grep -P '(warning|invalid)' report.txt
+          then
+                  exit 1
+          else
+                  echo "All good"
+          fi
